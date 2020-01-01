@@ -20,7 +20,10 @@ class CategoryMatching:
 
         if method != None:
             if method == "gensim":
-                pass
+                """
+                    TO DO::
+                """
+                return None
             elif method == "wup":
                 return wupAlgo.wup_similarity(str1,str2)
             elif method == "wup_Path":
@@ -35,4 +38,7 @@ class CategoryMatching:
 
 
 c = CategoryMatching()
+print (c.match("Cajun Restaurant","Restaurant",method="gensim"))
+print (c.match("Cajun Restaurant","Restaurant",method="wup"))
 print (c.match("Cajun Restaurant","Restaurant",method="wup_Path"))
+print (c.match("Cajun Restaurant","Restaurant",method="semantic"))
