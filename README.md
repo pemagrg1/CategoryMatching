@@ -28,23 +28,23 @@ Wu and Palmer defined the similarity measure as words position in the lexical hi
 #### In the First Paper Semantic Similarity is calculated as:
 
 Using lexical database methodology, the similarity is determined by using predefined word hierarchy which has [words,meaning,relationship] with other words stored in a tree like structure.
-<br><br> Calculation for Word Similarity:
-    1. Path distance between the words
-    2. The depth of the subsumer (root) in the hierarchy
-    3. Use word corpus to calculate info content of the word
-<br><br>Calculation for Sentence Similarity:
-    1. sentence->word tokens
-    2. calculate : word similarity, sentence similarity, word order similarity
-    3. Use lexical database to compare the meaning of the word
-    4. form semantic vector for each sent with weights of the word (use info content which has word freq domain wise)
-    5. Form order vector (Syntactic similarity between sent) 6. Calculate semantic similarity based on semantic vector and order vec
+<br><br> Calculation for Word Similarity:<br>
+1. Path distance between the words
+2. The depth of the subsumer (root) in the hierarchy
+3. Use word corpus to calculate info content of the word
+<br><br>Calculation for Sentence Similarity:<br>
+1. sentence->word tokens
+2. calculate : word similarity, sentence similarity, word order similarity
+3. Use lexical database to compare the meaning of the word
+4. form semantic vector for each sent with weights of the word (use info content which has word freq domain wise)
+5. Form order vector (Syntactic similarity between sent) 6. Calculate semantic similarity based on semantic vector and order vec
 
 
 In the second paper semantic similarity is calculated as: The process followed is: <br></br>
-    1. Tagging
-    2. Lemma
-    3. Wordnet
-    4. Process sent pairs
-    5. Semantic Sim measures[Shortest Path,Wu&Palmer, Feature]
-    6. compare the score
+1. Tagging
+2. Lemma
+3. Wordnet
+4. Process sent pairs
+5. Semantic Sim measures[Shortest Path,Wu&Palmer, Feature]
+6. compare the score
 
