@@ -32,12 +32,15 @@ Using lexical database methodology, the similarity is determined by using predef
 1. Path distance between the words
 2. The depth of the subsumer (root) in the hierarchy
 3. Use word corpus to calculate info content of the word
+
+
 <br><br>Calculation for Sentence Similarity:<br>
 1. sentence->word tokens
 2. calculate : word similarity, sentence similarity, word order similarity
 3. Use lexical database to compare the meaning of the word
 4. form semantic vector for each sent with weights of the word (use info content which has word freq domain wise)
-5. Form order vector (Syntactic similarity between sent) 6. Calculate semantic similarity based on semantic vector and order vec
+5. Form order vector (Syntactic similarity between sent) 
+6. Calculate semantic similarity based on semantic vector and order vec
 
 
 In the second paper semantic similarity is calculated as: The process followed is: <br></br>
