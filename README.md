@@ -26,7 +26,8 @@ Wu and Palmer defined the similarity measure as words position in the lexical hi
 
 
 #### In the First Paper Semantic Similarity is calculated as:
-        Using lexical database methodology, the similarity is determined by using predefined word hierarchy which has [words,meaning,relationship] with other words stored in a tree like structure.
+
+Using lexical database methodology, the similarity is determined by using predefined word hierarchy which has [words,meaning,relationship] with other words stored in a tree like structure.
 <br><br> Calculation for Word Similarity:
     1. Path distance between the words
     2. The depth of the subsumer (root) in the hierarchy
